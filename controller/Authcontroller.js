@@ -1,4 +1,4 @@
-const bcrypt=require("bcrypt")
+const bcrypt=require("bcryptjs")
 const jwt=require("jsonwebtoken")
 const Usermodel=require("../model/usermodel")
 const AuthRouter= require("express").Router()
