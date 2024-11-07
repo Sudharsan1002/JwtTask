@@ -1,8 +1,6 @@
-
-
-const Usermodel=require("../model/usermodel")
 const bcrypt=require("bcrypt")
 const jwt=require("jsonwebtoken")
+const Usermodel=require("../model/usermodel")
 const AuthRouter= require("express").Router()
 
 // LOGIN ROUTE WITH JWT TOKEN GENERATION AND VALIDATING PASSWORD USING BCRYPT
