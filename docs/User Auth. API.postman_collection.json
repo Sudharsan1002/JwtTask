@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "91356935-e03e-4121-84fb-8c5ea13a4967",
 		"name": "User Auth. API",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "39092534"
 	},
 	"item": [
@@ -20,18 +20,7 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "http://localhost:3000/auth/signup",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"auth",
-						"signup"
-					]
-				}
+				"url": "http://localhost:3000/auth/signup"
 			},
 			"response": []
 		},
@@ -49,18 +38,7 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "http://localhost:3000/auth/login",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"auth",
-						"login"
-					]
-				}
+				"url": "http://localhost:3000/auth/login"
 			},
 			"response": []
 		},
@@ -75,18 +53,7 @@
 						"type": "text"
 					}
 				],
-				"url": {
-					"raw": "http://localhost:3000/user/profile",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"user",
-						"profile"
-					]
-				}
+				"url": "http://localhost:3000/user/profile"
 			},
 			"response": []
 		}
